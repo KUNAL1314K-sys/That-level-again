@@ -1297,7 +1297,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 5. Shambles
+  m_text: 3. Try More
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2651,9 +2651,9 @@ GameObject:
   - component: {fileID: 1951284051}
   - component: {fileID: 1951284054}
   - component: {fileID: 1951284055}
+  - component: {fileID: 1951284056}
+  - component: {fileID: 1951284057}
   - component: {fileID: 1951284058}
-  - component: {fileID: 1951284059}
-  - component: {fileID: 1951284060}
   m_Layer: 0
   m_Name: player
   m_TagString: Player
@@ -2830,6 +2830,33 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1951284056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1951284049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69ac99d84db9dae4c9d7af4c48be5a35, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
+  speed: 2
+--- !u!114 &1951284057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1951284049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24c02e8e217a47948a671318febff93a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerController
+  moveSpeed: 5
+  jumpForce: 5
 --- !u!114 &1951284058
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2842,33 +2869,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fda19b3a28a97044b1d398f580ea284, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerDeath
---- !u!114 &1951284059
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1951284049}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0cdeb87b9344dc04c94bf299b645147a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Player_mv_lv5
-  speed: 2
---- !u!114 &1951284060
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1951284049}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c786d7fc722e745418de40fe1a03f99f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayerJump_lv5
-  moveSpeed: 5
-  jumpForce: 5
 --- !u!1 &1975401421
 GameObject:
   m_ObjectHideFlags: 0

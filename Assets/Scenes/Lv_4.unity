@@ -1297,9 +1297,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '4. Just Press on it
-
-'
+  m_text: 5. Shamble
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2653,7 +2651,6 @@ GameObject:
   - component: {fileID: 1951284051}
   - component: {fileID: 1951284054}
   - component: {fileID: 1951284055}
-  - component: {fileID: 1951284056}
   - component: {fileID: 1951284057}
   - component: {fileID: 1951284058}
   m_Layer: 0
@@ -2832,19 +2829,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &1951284056
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1951284049}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 69ac99d84db9dae4c9d7af4c48be5a35, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
-  speed: 2
 --- !u!114 &1951284057
 MonoBehaviour:
   m_ObjectHideFlags: 0
